@@ -1,1 +1,4 @@
-
+x = "Your age"
+y = "is"
+z = "25"
+print(x,y,z)
