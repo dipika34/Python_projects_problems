@@ -1,0 +1,16 @@
+n = int(input("Enter the elements:"))
+my_list = []
+
+
+print("Enter the elements of the list:")
+
+for m in range(0,n):
+    item = int(input())
+    my_list.append(item)
+print("The elements of the  list are")
+
+for item in my_list:
+    print(item)
+for item in my_list:
+    if(item%2==0):
+        print("Even_numbers are",item)
