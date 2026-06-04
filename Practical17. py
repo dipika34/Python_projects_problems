@@ -1,0 +1,8 @@
+numbers=[10,20,30,40,50]
+print("Third element of a list:",numbers[2])
+print("Length of a list :",len(numbers))
+temp=[]
+if(numbers==temp):
+    print("Yes, the list is empty")
+else:
+    print("Is the list empty?",False)
